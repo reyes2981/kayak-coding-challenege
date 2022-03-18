@@ -1,0 +1,39 @@
+<nav>
+   <img src="../../assets/images/Logo (1).svg" />
+</nav>
+
+<div class="container-fluid ">
+   <h1>Airlines</h1>
+   <h5>Filter by Alliances</h5>
+   <div class="form-check form-check-inline">
+      <input class="form-check-input" type="checkbox" id="inlineCheckbox1" (change)="change1($event)">
+      <label class="form-check-label" for="inlineCheckbox1">OneWorld</label>
+   </div>
+   <div class="form-check form-check-inline">
+      <input class="form-check-input" type="checkbox" id="inlineCheckbox2"  (change)="change2($event)">
+      <label class="form-check-label" for="inlineCheckbox2">Sky Team</label>
+   </div>
+   <div class="form-check form-check-inline">
+      <input class="form-check-input" type="checkbox" id="inlineCheckbox3"  (change)="change3($event)">
+      <label class="form-check-label" for="inlineCheckbox3">Star Alliance</label>
+   </div>
+   <div class="row">
+      <div *ngFor="let airline of AirlineList.slice(0, 12)" class="col-sm-3 text-center justify-content-center"
+         style="height: 240px; width: 300px; margin: 16px">
+         <div class="card" (mouseover)="changeText=true" (mouseout)="changeText=false">
+            <span *ngIf="!changeText">
+               <img [attr.src]="'https://www.kayak.com/' + airline.logoURL">
+               <div id="airline-name">{{airline.name}}</div>
+            </span>
+            <span *ngIf="changeText">
+               <div id="airline-name">{{airline.name}}</div>
+               <div id="airline-alliance">{{airline.alliance}}</div>
+               <div>{{airline.phone}}</div>
+               <div id="airline-website">{{airline.site}}</div>
+               <img [attr.src]="'https://www.kayak.com/' + airline.logoURL">
+            </span>
+         </div>
+      </div>
+   </div>
+
+</div>

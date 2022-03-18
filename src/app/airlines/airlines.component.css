@@ -1,0 +1,99 @@
+nav {
+    padding-top: 19px;
+    padding-left: 16px;
+    padding-bottom: 19px;
+    background-color: #ffffff;
+}
+
+
+.container-fluid, h1, h5, .form-check, .form-check-label, .row {
+    background-color: #f9fafb;
+}
+
+.row {
+    
+}
+
+h1 {
+    padding-top: 67px;
+    padding-left: 94px;
+    padding-bottom: 73px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 44px;
+    font-weight: 900;
+    color: #000000;
+}
+
+h5, .form-check {
+    padding-left: 94px;
+}
+
+h5 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #192024;
+}
+
+.form-check {
+    padding-top: 23px;
+    padding-bottom: 56px;
+}
+
+.form-check-input {
+    width: 20px;
+    height: 20px;
+}
+
+.form-check-label {
+    padding-left: 10px;
+    padding-right: 24px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: #192024;
+}
+
+#airline-name {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #192024;
+}
+
+#airline-alliance {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: #192024;
+}
+
+#airline-website {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: #5a6872;
+}
+
+.col-sm-3 {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 --1px 4px 0 rgba(25, 32, 36, 0.04),
+    0 3px 6px 0 rgba(25, 32, 36, 0.16);
+    border: solid 1px #363f45;
+}
+span {
+    background-color: #ffffff;
+ }
+
+ .card {
+     border: none;
+ }
+
+
+
+
+
+
+
+
